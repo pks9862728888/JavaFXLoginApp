@@ -13,4 +13,6 @@ module com.example.javafx {
 
     opens com.example.javafx to javafx.fxml;
     exports com.example.javafx;
+    exports com.example.javafx.viewflows;
+    opens com.example.javafx.viewflows to javafx.fxml;
 }
